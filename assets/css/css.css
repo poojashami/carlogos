@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* app-slider */
+.app-slider{
+    position: relative;
+    padding: 3rem 0;
+}
+.app-slider .carousel .carousel-inner .carousel-item .header-logos ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.app-slider .carousel {
+    position: unset;
+}
+.app-slider .carousel .carousel-inner .carousel-item .header-logos ul li img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.app-slider .carousel .carousel-inner .carousel-item .header-logos ul li {
+    height: 7rem;
+    width: 7rem;
+}
+.app-slider .carousel .carousel-control-prev .carousel-control-prev-icon,.carousel-control-next-icon{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    justify-content: center;
+    background: none;
+    line-height: 0;
+}
+.app-slider .carousel .carousel-control-prev {
+    left: 30px;
+    height: 3rem;
+    width: 3rem;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    background: var(--bs-primary);
+}
+
+.app-slider .carousel .carousel-control-next{
+    right: 30px;
+    height: 3rem;
+    width: 3rem;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    background: var(--bs-primary);
+}
